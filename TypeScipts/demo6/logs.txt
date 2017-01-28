@@ -1,0 +1,143 @@
+D:\TypeScipts\demo\demo5_testing_with_http_server_and_systemJs\systemjs>cd ..
+
+D:\TypeScipts\demo\demo5_testing_with_http_server_and_systemJs>dir
+ Volume in drive D is DATA
+ Volume Serial Number is DAC2-EBBB
+
+ Directory of D:\TypeScipts\demo\demo5_testing_with_http_server_and_systemJs
+
+01/28/2017  04:39 PM    <DIR>          .
+01/28/2017  04:39 PM    <DIR>          ..
+01/28/2017  04:23 PM    <DIR>          dist
+01/28/2017  04:53 PM               431 index.html
+01/28/2017  04:38 PM             5,688 npm-debug.log
+01/28/2017  04:23 PM    <DIR>          src
+01/28/2017  04:54 PM    <DIR>          systemjs
+01/28/2017  04:24 PM               251 tsconfig.json
+               3 File(s)          6,370 bytes
+               5 Dir(s)  350,945,673,216 bytes free
+
+D:\TypeScipts\demo\demo5_testing_with_http_server_and_systemJs>dir
+ Volume in drive D is DATA
+ Volume Serial Number is DAC2-EBBB
+
+ Directory of D:\TypeScipts\demo\demo5_testing_with_http_server_and_systemJs
+
+01/28/2017  04:39 PM    <DIR>          .
+01/28/2017  04:39 PM    <DIR>          ..
+01/28/2017  04:23 PM    <DIR>          dist
+01/28/2017  04:53 PM               431 index.html
+01/28/2017  04:38 PM             5,688 npm-debug.log
+01/28/2017  04:23 PM    <DIR>          src
+01/28/2017  04:54 PM    <DIR>          systemjs
+01/28/2017  04:24 PM               251 tsconfig.json
+               3 File(s)          6,370 bytes
+               5 Dir(s)  350,945,673,216 bytes free
+
+D:\TypeScipts\demo\demo5_testing_with_http_server_and_systemJs>http-server -c-1
+Starting up http-server, serving ./
+Available on:
+  http://192.168.1.3:8080
+  http://127.0.0.1:8080
+Hit CTRL-C to stop the server
+[Sat Jan 28 2017 17:00:18 GMT+0530 (India Standard Time)] "GET /" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+[Sat Jan 28 2017 17:00:18 GMT+0530 (India Standard Time)] "GET /favicon.ico" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML
+[Sat Jan 28 2017 17:00:18 GMT+0530 (India Standard Time)] "GET /favicon.ico" Error (404): "Not found"
+[Sat Jan 28 2017 17:00:42 GMT+0530 (India Standard Time)] "GET /" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+[Sat Jan 28 2017 17:01:38 GMT+0530 (India Standard Time)] "GET /" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+[Sat Jan 28 2017 17:01:44 GMT+0530 (India Standard Time)] "GET /" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+[Sat Jan 28 2017 17:04:08 GMT+0530 (India Standard Time)] "GET /" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+[Sat Jan 28 2017 17:04:08 GMT+0530 (India Standard Time)] "GET /systemjs/dist/system.js" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/5
+[Sat Jan 28 2017 17:04:09 GMT+0530 (India Standard Time)] "GET /systemjs/dist/system.js.map" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebK
+[Sat Jan 28 2017 17:04:09 GMT+0530 (India Standard Time)] "GET /dist/main.js" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTM
+[Sat Jan 28 2017 17:04:09 GMT+0530 (India Standard Time)] "GET /dist/helper.js" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KH
+[Sat Jan 28 2017 17:04:18 GMT+0530 (India Standard Time)] "GET /" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+[Sat Jan 28 2017 17:04:19 GMT+0530 (India Standard Time)] "GET /systemjs/dist/system.js" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/5
+[Sat Jan 28 2017 17:04:19 GMT+0530 (India Standard Time)] "GET /systemjs/dist/system.js.map" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebK
+[Sat Jan 28 2017 17:04:19 GMT+0530 (India Standard Time)] "GET /dist/main.js" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTM
+[Sat Jan 28 2017 17:04:19 GMT+0530 (India Standard Time)] "GET /dist/helper.js" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KH
+http-server stopped.
+
+D:\TypeScipts\demo\demo5_testing_with_http_server_and_systemJs>
+
+D:\TypeScipts\demo\demo5_testing_with_http_server_and_systemJs>
+
+D:\TypeScipts\demo\demo5_testing_with_http_server_and_systemJs>ls
+dist  index.html  npm-debug.log  src  systemjs  tsconfig.json
+
+D:\TypeScipts\demo\demo5_testing_with_http_server_and_systemJs>dir
+ Volume in drive D is DATA
+ Volume Serial Number is DAC2-EBBB
+
+ Directory of D:\TypeScipts\demo\demo5_testing_with_http_server_and_systemJs
+
+01/28/2017  04:39 PM    <DIR>          .
+01/28/2017  04:39 PM    <DIR>          ..
+01/28/2017  04:23 PM    <DIR>          dist
+01/28/2017  05:04 PM               399 index.html
+01/28/2017  04:38 PM             5,688 npm-debug.log
+01/28/2017  04:23 PM    <DIR>          src
+01/28/2017  04:54 PM    <DIR>          systemjs
+01/28/2017  04:24 PM               251 tsconfig.json
+               3 File(s)          6,338 bytes
+               5 Dir(s)  350,945,673,216 bytes free
+
+D:\TypeScipts\demo\demo5_testing_with_http_server_and_systemJs>tsc
+
+D:\TypeScipts\demo\demo5_testing_with_http_server_and_systemJs>http-server -c-1
+Starting up http-server, serving ./
+Available on:
+  http://192.168.1.3:8080
+  http://127.0.0.1:8080
+Hit CTRL-C to stop the server
+[Sat Jan 28 2017 17:08:05 GMT+0530 (India Standard Time)] "GET /" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+[Sat Jan 28 2017 17:08:05 GMT+0530 (India Standard Time)] "GET /systemjs/dist/system.js" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/5
+[Sat Jan 28 2017 17:08:06 GMT+0530 (India Standard Time)] "GET /systemjs/dist/system.js.map" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebK
+[Sat Jan 28 2017 17:08:06 GMT+0530 (India Standard Time)] "GET /dist/main.js" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTM
+[Sat Jan 28 2017 17:08:06 GMT+0530 (India Standard Time)] "GET /dist/helper.js" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KH
+http-server stopped.
+
+D:\TypeScipts\demo\demo5_testing_with_http_server_and_systemJs>
+
+D:\TypeScipts\demo\demo5_testing_with_http_server_and_systemJs>tsc
+
+D:\TypeScipts\demo\demo5_testing_with_http_server_and_systemJs>http-server -c-1
+Starting up http-server, serving ./
+Available on:
+  http://192.168.1.3:8080
+  http://127.0.0.1:8080
+Hit CTRL-C to stop the server
+[Sat Jan 28 2017 17:09:45 GMT+0530 (India Standard Time)] "GET /" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+[Sat Jan 28 2017 17:09:45 GMT+0530 (India Standard Time)] "GET /systemjs/dist/system.js" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/5
+[Sat Jan 28 2017 17:09:45 GMT+0530 (India Standard Time)] "GET /systemjs/dist/system.js.map" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebK
+[Sat Jan 28 2017 17:09:46 GMT+0530 (India Standard Time)] "GET /dist/main.js" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTM
+[Sat Jan 28 2017 17:09:46 GMT+0530 (India Standard Time)] "GET /dist/helper.js" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KH
+http-server stopped.
+
+D:\TypeScipts\demo\demo5_testing_with_http_server_and_systemJs>
+
+D:\TypeScipts\demo\demo5_testing_with_http_server_and_systemJs>tsc
+
+D:\TypeScipts\demo\demo5_testing_with_http_server_and_systemJs>http-server -c-1
+Starting up http-server, serving ./
+Available on:
+  http://192.168.1.3:8080
+  http://127.0.0.1:8080
+Hit CTRL-C to stop the server
+[Sat Jan 28 2017 17:10:17 GMT+0530 (India Standard Time)] "GET /" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+[Sat Jan 28 2017 17:10:17 GMT+0530 (India Standard Time)] "GET /systemjs/dist/system.js" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/5
+[Sat Jan 28 2017 17:10:17 GMT+0530 (India Standard Time)] "GET /systemjs/dist/system.js.map" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebK
+[Sat Jan 28 2017 17:10:17 GMT+0530 (India Standard Time)] "GET /dist/main.js" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTM
+[Sat Jan 28 2017 17:10:17 GMT+0530 (India Standard Time)] "GET /dist/helper.js" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KH
+[Sat Jan 28 2017 17:10:27 GMT+0530 (India Standard Time)] "GET /" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+[Sat Jan 28 2017 17:10:27 GMT+0530 (India Standard Time)] "GET /systemjs/dist/system.js" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/5
+[Sat Jan 28 2017 17:10:27 GMT+0530 (India Standard Time)] "GET /systemjs/dist/system.js.map" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebK
+[Sat Jan 28 2017 17:10:27 GMT+0530 (India Standard Time)] "GET /dist/main.js" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTM
+[Sat Jan 28 2017 17:10:27 GMT+0530 (India Standard Time)] "GET /dist/helper.js" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KH
+
+
+
+
+
+
+

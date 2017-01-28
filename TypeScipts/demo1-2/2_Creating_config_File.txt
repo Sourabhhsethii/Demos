@@ -1,0 +1,23 @@
+D:\TypeScipts\demo>dir
+ Volume in drive D is DATA
+ Volume Serial Number is DAC2-EBBB
+
+ Directory of D:\TypeScipts\demo
+
+01/28/2017  11:40 AM    <DIR>          .
+01/28/2017  11:40 AM    <DIR>          ..
+01/28/2017  11:36 AM                88 app.js
+01/28/2017  11:46 AM                35 app.ts
+01/28/2017  11:46 AM               120 bundle.js
+07/08/2016  12:04 PM    <DIR>          node_modules
+               3 File(s)            243 bytes
+               3 Dir(s)  350,948,737,024 bytes free
+
+D:\TypeScipts\demo>tsc --init
+message TS6071: Successfully created a tsconfig.json file.
+
+D:\TypeScipts\demo>tsc
+
+D:\TypeScipts\demo>tsc character.ts
+
+D:\TypeScipts\demo>tsc character.ts

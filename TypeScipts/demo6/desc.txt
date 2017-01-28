@@ -1,0 +1,9 @@
+Explanation on tsconfig.json
+1.) Complie root dir ("rootDir":"./src") 
+2.) exclude node modules (
+
+ "exclude": [
+        "node_modules"
+    ]
+	
+	)

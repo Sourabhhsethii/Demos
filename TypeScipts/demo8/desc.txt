@@ -1,0 +1,5 @@
+Explanation on typesripts
+
+Grabing a lib..
+
+1.) Install typings

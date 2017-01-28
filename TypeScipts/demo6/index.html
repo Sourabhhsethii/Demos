@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+   <title>Document</title>
+     <script src ="systemjs/dist/system.js" > </script>
+    </head>
+<body>
+<script>
+    
+    System.config({
+        packages:{
+            "dist":{
+                "defaultExtenstion" :"js",
+                "main" :"main"
+            }
+        }
+    })
+    
+    System.import("dist");
+
+</script>
+
+</body>
+</html>
