@@ -1,0 +1,45 @@
+D:\Angular2\demo\demo2\simple-form-component>ng generate component simple-form -it -is
+installing component
+  create src\app\simple-form\simple-form.component.spec.ts
+  create src\app\simple-form\simple-form.component.ts
+  update src\app\app.module.ts
+
+D:\Angular2\demo\demo2\simple-form-component>ng serve
+** NG Live Development Server is running on http://localhost:4200. **
+Hash: 36c97c8f9a8f1e3fbf56
+Time: 16712ms
+chunk    {0} main.bundle.js, main.bundle.map (main) 6.43 kB {2} [initial] [rendered]
+chunk    {1} styles.bundle.js, styles.bundle.map (styles) 9.96 kB {3} [initial] [rendered]
+chunk    {2} vendor.bundle.js, vendor.bundle.map (vendor) 2.85 MB [initial] [rendered]
+chunk    {3} inline.bundle.js, inline.bundle.map (inline) 0 bytes [entry] [rendered]
+
+ERROR in ./src/app/app.component.ts
+Module build failed: Error: D:/Angular2/demo/demo2/simple-form-component/src/app/app.component.ts (5,19): Unterminated string literal.)
+D:/Angular2/demo/demo2/simple-form-component/src/app/app.component.ts (6,21): Type expected.)
+D:/Angular2/demo/demo2/simple-form-component/src/app/app.component.ts (6,22): Unterminated regular expression literal.)
+D:/Angular2/demo/demo2/simple-form-component/src/app/app.component.ts (7,5): Unterminated regular expression literal.)
+D:/Angular2/demo/demo2/simple-form-component/src/app/app.component.ts (3,12): Argument of type '{ selector: string; template: boolean; }' is not assignable to parameter of type 'Component'.
+  Types of property 'template' are incompatible.
+    Type 'boolean' is not assignable to type 'string'.)
+D:/Angular2/demo/demo2/simple-form-component/src/app/app.component.ts (5,13): Operator '<' cannot be applied to types 'string' and 'number'.)
+D:/Angular2/demo/demo2/simple-form-component/src/app/app.component.ts (5,13): Operator '<' cannot be applied to types 'boolean' and 'RegExp'.)
+D:/Angular2/demo/demo2/simple-form-component/src/app/app.component.ts (6,4): Cannot find name 'app'.)
+D:/Angular2/demo/demo2/simple-form-component/src/app/app.component.ts (6,8): Cannot find name 'simple'.)
+D:/Angular2/demo/demo2/simple-form-component/src/app/app.component.ts (6,15): Cannot find name 'form'.)
+    at _checkDiagnostics (D:\Angular2\demo\demo2\simple-form-component\node_modules\@ngtools\webpack\src\loader.js:145:15)
+    at D:\Angular2\demo\demo2\simple-form-component\node_modules\@ngtools\webpack\src\loader.js:172:17
+ @ ./src/app/app.module.ts 14:0-47
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://localhost:4200/ ./src/main.ts
+webpack: bundle is now VALID.
+^CTerminate batch job (Y/N)? y
+
+D:\Angular2\demo\demo2\simple-form-component>ng serve
+** NG Live Development Server is running on http://localhost:4200. **
+Hash: 4c00e56d5065b004a848
+Time: 9059ms
+chunk    {0} main.bundle.js, main.bundle.map (main) 6.09 kB {2} [initial] [rendered]
+chunk    {1} styles.bundle.js, styles.bundle.map (styles) 9.96 kB {3} [initial] [rendered]
+chunk    {2} vendor.bundle.js, vendor.bundle.map (vendor) 2.85 MB [initial] [rendered]
+chunk    {3} inline.bundle.js, inline.bundle.map (inline) 0 bytes [entry] [rendered]
+webpack: bundle is now VALID.

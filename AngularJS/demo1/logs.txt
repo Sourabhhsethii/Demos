@@ -1,0 +1,89 @@
+D:\Angular2\demo>npm install -g angular-cli
+npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+C:\Users\sourabh_sethi\AppData\Roaming\npm\ng -> C:\Users\sourabh_sethi\AppData\Roaming\npm\node_modules\angular-cli\bin\ng
+
+> node-sass@4.4.0 install C:\Users\sourabh_sethi\AppData\Roaming\npm\node_modules\angular-cli\node_modules\node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v4.4.0/win32-x64-51_binding.node
+Download complete  ] - :
+Binary saved to C:\Users\sourabh_sethi\AppData\Roaming\npm\node_modules\angular-cli\node_modules\node-sass\vendor\win32-x64-51\binding.node
+Caching binary to C:\Users\sourabh_sethi\AppData\Roaming\npm-cache\node-sass\4.4.0\win32-x64-51_binding.node
+
+> node-sass@4.4.0 postinstall C:\Users\sourabh_sethi\AppData\Roaming\npm\node_modules\angular-cli\node_modules\node-sass
+> node scripts/build.js
+
+Binary found at C:\Users\sourabh_sethi\AppData\Roaming\npm\node_modules\angular-cli\node_modules\node-sass\vendor\win32-x64-51\binding.node
+Testing binary
+Binary is fine
+C:\Users\sourabh_sethi\AppData\Roaming\npm
+
+
+D:\Angular2\demo\demo1>ng new s8
+installing ng2
+  create .editorconfig
+  create README.md
+  create src\app\app.component.css
+  create src\app\app.component.html
+  create src\app\app.component.spec.ts
+  create src\app\app.component.ts
+  create src\app\app.module.ts
+  create src\assets\.gitkeep
+  create src\environments\environment.prod.ts
+  create src\environments\environment.ts
+  create src\favicon.ico
+  create src\index.html
+  create src\main.ts
+  create src\polyfills.ts
+  create src\styles.css
+  create src\test.ts
+  create src\tsconfig.json
+  create angular-cli.json
+  create e2e\app.e2e-spec.ts
+  create e2e\app.po.ts
+  create e2e\tsconfig.json
+  create .gitignore
+  create karma.conf.js
+  create package.json
+  create protractor.conf.js
+  create tslint.json
+  
+  
+  D:\Angular2\demo\demo1\s8-angular-fundamentals>npm install
+npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated minimatch@0.3.0: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN prefer global node-gyp@3.5.0 should be installed with -g
+
+> node-sass@4.4.0 install D:\Angular2\demo\demo1\s8-angular-fundamentals\node_modules\node-sass
+> node scripts/install.js
+
+Cached binary found at C:\Users\sourabh_sethi\AppData\Roaming\npm-cache\node-sass\4.4.0\win32-x64-51_binding.node
+
+> node-sass@4.4.0 postinstall D:\Angular2\demo\demo1\s8-angular-fundamentals\node_modules\node-sass
+> node scripts/build.js
+
+Binary found at D:\Angular2\demo\demo1\s8-angular-fundamentals\node_modules\node-sass\vendor\win32-x64-51\binding.node
+Testing binary
+Binary is fine
+s8-angular-fundamentals@0.0.0 D:\Angular2\demo\demo1\s8-angular-fundamentals
+
+
+
+D:\Angular2\demo\demo1\s8-angular-fundamentals>ng serve
+** NG Live Development Server is running on http://localhost:4200. **
+Hash: 7a321eae8d6718f70ca7
+Time: 13520ms
+chunk    {0} main.bundle.js, main.bundle.map (main) 4.69 kB {2} [initial] [rendered]
+chunk    {1} styles.bundle.js, styles.bundle.map (styles) 9.96 kB {3} [initial] [rendered]
+chunk    {2} vendor.bundle.js, vendor.bundle.map (vendor) 2.85 MB [initial] [rendered]
+chunk    {3} inline.bundle.js, inline.bundle.map (inline) 0 bytes [entry] [rendered]
+webpack: bundle is now VALID.
+webpack: bundle is now INVALID.
+Hash: a7c32034c705705738d6
+Time: 7992ms
+chunk    {0} main.bundle.js, main.bundle.map (main) 4.71 kB {2} [initial] [rendered]
+chunk    {1} styles.bundle.js, styles.bundle.map (styles) 9.96 kB {3} [initial]
+chunk    {2} vendor.bundle.js, vendor.bundle.map (vendor) 2.85 MB [initial]
+chunk    {3} inline.bundle.js, inline.bundle.map (inline) 0 bytes [entry]
+webpack: bundle is now VALID.
+

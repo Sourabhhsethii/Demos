@@ -1,0 +1,7 @@
+Angular JS 2.0 
+
+Angular JS Project Setup Example..
+
+Your Should Know Basics
+1.) Typescripts 
+2.) ES 7

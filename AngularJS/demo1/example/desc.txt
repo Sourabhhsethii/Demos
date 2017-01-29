@@ -1,0 +1,7 @@
+Angular JS 2.0 
+
+Hello work Example..
+
+Your Should Know Basics
+1.) Typescripts 
+2.) ES 7
