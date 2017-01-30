@@ -1,4 +1,4 @@
-# TypeScrits Demos
+# TypeScript Demos
 
 ---
 
