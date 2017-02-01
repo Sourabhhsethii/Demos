@@ -1,0 +1,18 @@
+D:\node\demo-lessons\Node Js Fundamentals\Demo4>node
+> var globalVariable = require('./globalLocalNameSpace');
+undefined
+> globalVariable.setFoo(42);
+undefined
+> globalVariable.
+globalVariable.__defineGetter__      globalVariable.__defineSetter__      globalVariable.__lookupGetter__      globalVariable.__lookupSetter__      globalVariable.__proto__             globalVariable.constructor           globalVariable.hasOwnProperty        globalVariable.isPrototypeOf
+
+globalVariable.returnValue           globalVariable.setFoo
+
+> globalVariable.returnValue();
+42
+>
+
+
+
+
+

@@ -1,0 +1,93 @@
+> 1+2
+3
+> 4*5
+20
+> var foo = 'name'
+undefined
+> var boo = 'other name'
+undefined
+> foo
+'name'
+> boo
+'other name'
+> 1+2+3
+6
+> _ + 4
+10
+> var myname = function() { return  'sourabh' }
+undefined
+> myname()
+'sourabh'
+> var sayMyName = function()  {
+... return 'sourabh sethi';
+... }
+undefined
+> sayMyName()
+'sourabh sethi'
+> var mistake = function() {
+...
+...
+> var mistake = function() {
+... .break
+> var mistake = function() {
+..... .clear
+> .save sampleREPL.js
+Session saved to:sampleREPL.js
+> myname
+[Function: myname]
+> myname()
+'sourabh'
+> .exit
+
+D:\node\demo-lessons\Node Js Fundamentals\Demo1>node
+> .load sampleREPL
+Failed to load:sampleREPL
+> .load sampleREPL.js
+> 1+2
+3
+> 4*5
+20
+> var foo = 'name'
+undefined
+> var boo = 'other name'
+undefined
+> foo
+'name'
+> boo
+'other name'
+> 1+2+3
+6
+> _ + 4
+10
+> var myname = function() { return  'sourabh' }
+undefined
+> myname()
+'sourabh'
+> var sayMyName = function()  {
+... return 'sourabh sethi';
+... }
+undefined
+> sayMyName()
+'sourabh sethi'
+> var mistake = function() {
+... var mistake = function() {
+..... var mistake = function() {
+....... }
+..... }
+... }
+undefined
+> mistake()
+undefined
+> myname
+[Function: myname]
+> myname()
+'sourabh'
+> .help
+.break    Sometimes you get stuck, this gets you out
+.clear    Alias for .break
+.editor   Enter editor mode
+.exit     Exit the repl
+.help     Print this help message
+.load     Load JS from a file into the REPL session
+.save     Save all evaluated commands in this REPL session to a file
+> .exit

@@ -1,0 +1,17 @@
+1.) working with node cmds and args.
+
+D:\node\demo-lessons\Node Js Fundamentals\Demo3>node argument.js hello sourabh !!
+0:C:\Program Files\nodejs\node.exe
+1:D:\node\demo-lessons\Node Js Fundamentals\Demo3\argument.js
+2:hello
+3:sourabh
+4:!!
+
+2.) 
+
+D:\node\demo-lessons\Node Js Fundamentals\Demo3>node
+> .load os
+os
+
+> .load objectSession.js
+> global.process

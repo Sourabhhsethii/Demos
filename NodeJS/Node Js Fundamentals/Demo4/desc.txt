@@ -1,0 +1,1 @@
+Node.js Global NameSpace

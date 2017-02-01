@@ -1,0 +1,93 @@
+D:\node\demo-lessons\Node Js Fundamentals\Demo5>node
+> fs.readFile('help.txt', function(err,data){
+... console.log(data);
+... })
+undefined
+> <Buffer 48 69 20 73 6f 75 72 61 62 68 20 21 21>
+
+> fs.re
+fs.read          fs.readFile      fs.readFileSync  fs.readSync      fs.readdir       fs.readdirSync   fs.readlink      fs.readlinkSync  fs.realpath      fs.realpathSync  fs.rename        fs.renameSync
+
+> fs.readFile('help.txt',function(err,data){
+... console.log(data.toString());
+... }
+... )
+undefined
+> Hi sourabh !!
+> fs.readFile('help.txt', ''utf8', function(err,data){
+fs.readFile('help.txt', ''utf8', function(err,data){
+                        ^^
+SyntaxError: missing ) after argument list
+
+> fs.readFile('help.txt', 'utf8', function(err,data){
+... console.log(data);
+... })
+undefined
+
+
+> str = '\u0048\u0065\u006c\u006c\u006f';
+'Hello'
+> str.length;
+5
+
+> str = '\u00bd + \u00bc = \u00be';
+'½ + ¼ = _'
+
+> Buffer.byteLength(str,'utf8')
+12
+> buf = new Buffer(5);
+<Buffer b0 d3 44 00 00>
+> b
+break
+
+buf     buffer
+
+> buf.write('hello Sourabh');
+5
+> b
+break
+
+buf     buffer
+
+> buf.toString()
+'hello'
+> buf.write('hello',2)
+3
+> buf.toString()
+'hehel'
+> buf.write('xxxx',2,1)
+1
+> buf.toString()
+'hexel'
+> buf.write('yyyy',2,1,'utf8');
+1
+> buf.toString()
+'heyel'
+> buf1 = new Buffer('1234')
+<Buffer 31 32 33 34>
+> buf2 = new Buffer('0123')
+<Buffer 30 31 32 33>
+> buff3 = new B
+Boolean
+
+Buffer
+
+> buff3 = new Buffer('1234')
+<Buffer 31 32 33 34>
+> buf1.compare(buf2)
+1
+> buf.compare(buf3)
+
+> var arr = [buf1,buf2]
+undefined
+> arr.sort(Buffer.compare)
+[ <Buffer 30 31 32 33>, <Buffer 31 32 33 34> ]
+> buf.toJSON()
+{ type: 'Buffer', data: [ 104, 101, 121, 101, 108 ] }
+>
+
+> buf2 = buf1.slice(0,3);
+<Buffer 31 32 33>
+> buf.toString();
+'heyel'
+>
