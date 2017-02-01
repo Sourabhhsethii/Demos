@@ -1,0 +1,5 @@
+D:\node\demo-lessons\Node Js Fundamentals\Demo11>node --trace_gc httpserver.js
+[13548:00000000004AE420]      243 ms: Scavenge 3.3 (9.0) -> 3.0 (10.0) MB, 1.7 / 0.0 ms  allocation failure
+[13548:00000000004AE420]      274 ms: Scavenge 3.5 (10.0) -> 3.4 (11.0) MB, 2.5 / 0.0 ms  allocation failure
+
+
